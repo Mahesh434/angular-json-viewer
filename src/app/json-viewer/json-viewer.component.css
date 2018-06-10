@@ -1,0 +1,20 @@
+.json-container {
+    text-align: left;
+}
+
+.json-container .json-body{
+    text-align: left;
+}
+
+.json-container .json-inners{
+    padding-left: 20px;
+}
+
+.json-container .json-key{
+    color: chocolate;
+}
+
+.json-container .json-value {
+    color: black;
+}
+

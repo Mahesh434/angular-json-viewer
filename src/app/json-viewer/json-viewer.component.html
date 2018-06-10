@@ -1,0 +1,12 @@
+<section class="json-container">
+  <div *ngFor="let key of keys">
+    <div (click)="expandTree(key)" class="json-body">
+      <span class="json-key">{{key.key}}</span>
+      <span>:</span>
+      <span class="json-value">{{isArray(data[key.key]) ? 'Array[' + data[key.key].length + ']' : data[key.key]}}</span>
+    </div>
+    <div *ngIf="key.expanded" class="json-inners">
+      <app-json-viewer [data]="data[key.key]"></app-json-viewer>
+    </div>
+  </div>
+</section>
