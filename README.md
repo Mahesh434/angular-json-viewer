@@ -1,6 +1,6 @@
 # AngularJsonViewer
 
-Display Given JSON data as a Tree for east traverse.
+Display Given JSON data as a Tree for easy traverse.
 
 ## Development server
 
